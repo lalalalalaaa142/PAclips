@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    margin-bottom: 100px;
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+header {
+    border-bottom: solid 1px rgb(255, 50, 50);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(255, 50, 50);
+}
+
+.first {
+    background: #000000;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto1 {
+    margin-right: 5%;
+}
+
+img {
+    height: 200px;
+}
+
+.second {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.ganhadores {
+
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.ganhadores img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.ganhadores img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 50, 50);
+}
+
+.second h2 {
+    color: rgb(255, 50, 50);
+}
